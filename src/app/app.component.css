@@ -1,0 +1,106 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(47, 255, 154);
+    padding: 20px;
+    border-radius: 8px;
+    justify-content: space-between; 
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #btn {
+    background-color: #2196f3;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .card {
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+  }
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+}  
+
+.highlighted {
+  background-color: yellow; 
+  color:#2196f3;
+}
+#buttonContainer button {
+  color: blue;
+  background-color: #4caf50;
+  margin: 10px; 
+}
+
+#buttonContainer button.highlighted {
+  background-color: yellow;
+  color: #2196f3;
+}
+
+
+.bts{
+    color: blue;
+    background-color: #4caf50;
+    margin:100px;
+}
+#buttonContainer{
+  display:flex;
+  flex-direction: row;
+  justify-content: end;
+}
+#cardContainer{
+  display:flex;
+  flex-direction: row;
+  justify-content: end;
+  /* border: 1px solid;
+  border-radius: 4px;
+  height:100px;
+  width:100px; */
+}
+
+.card-content {
+  display:flex;
+  justify-content: end;
+  text-align: right;
+  margin-right: 10px;
+}
